@@ -1,0 +1,218 @@
+header {
+    margin: 0px 0px;
+    padding-bottom: 0px;
+    font-family: 'Ouicksand', sans-serif;
+    /*text-shadow: 1px 1px 2px black;*/
+    letter-spacing: 1px;
+    border-top: solid 1px #d9d9d9;
+    /*border-bottom: solid 1px #d9d9d9;*/
+    border-left: solid 1px #d9d9d9;
+    border-right: solid 1px #d9d9d9;
+    width: 100% ;
+    background-color: #fafafa;
+    float: right;
+    display:  table-cell; 
+    vertical-align:  middle;
+    /*background: linear-gradient(-135deg, #555555, white);*/
+}
+
+body {
+    margin:0;
+    padding: 0;
+    font-family: 'Quicksand','Helvetica',Arial','Hiragino Sans','ヒラギノ角ゴシック',YuGothic,'Yu Gothic','メイリオ', Meiryo,'ＭＳ Ｐゴシック','MS PGothic'  
+}
+h1 {
+    color: rgb(31, 31, 31);
+    /*font-family: 'Ouicksand', sans-serif;*/
+    padding-left: 20px;
+    float: left;
+}
+ul {
+	width:auto;
+	margin: 0;
+	padding-top: 25px;
+	list-style-type: none;
+    display: inline-block;
+    float: right;
+}
+li a {
+	display: block;
+    padding: 7px 16px;
+    text-emphasis: size after 1px; ;
+    text-decoration: none;
+    color: rgb(31, 31, 31);
+}
+li {
+    text-align: center;
+    display: inline-block;
+    padding: 0 8px;
+}
+
+div.delfloat{
+    clear: both;
+    height:20px;
+}
+
+/*flexスタイル*/
+.flex{
+    padding: 0 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+  /*ボックスのスタイル*/
+.col{
+    width: calc(100% / 2);
+    padding: 25px 25px;
+    flex-basis: 40%;
+    background: #fff;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 30px;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow:rgba(100, 99, 99, 0.51) 4px 4px 5px -4px;
+    -webkit-box-shadow:rgba(100, 99, 99, 0.51) 4px 4px 5px -4px;
+    -moz-box-shadow:rgba(100, 99, 99, 0.51) 4px 4px 5px -4px;
+    border: 1px solid #d9d9d9;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.col p{
+    font-size: 0.8rem;
+}
+
+#makesurvey{
+    font-size: 1.5rem;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.newsurvey{
+    margin: 10px auto;
+    /*text-align: center;*/
+    width: 100%;
+    outline: 0;
+    border: none;
+    padding: 10px 0;
+    border-bottom: solid 1px #b3acac;
+}
+
+.button{
+    outline: 0;
+    display: inline-block;
+    text-align: center;
+    background-image: linear-gradient(#eaeaea 0%, #c6c6c6 100%);
+    box-shadow: inset 0 2px 0 rgba(255,255,255,0.5), 0 2px 2px rgba(0, 0, 0, 0.19);
+    color: #a5a5a5;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 1);
+    padding: 5px 24px;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 100%;
+    margin:10px 0;
+}
+
+.button:hover {
+    opacity: 0.8;
+  }
+
+.edit_content{
+    font-size: 1.5rem;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.edit_tag{
+    font-size: 0.5rem;
+    margin-bottom: 0px;
+    outline: 0;
+    width:100%;
+}
+.edit_{
+    font-size: 1rem;
+    border: none;
+    border-bottom: solid 1px #b3acac;
+    margin-top: 0px;
+    outline: 0;
+    width: 95%;
+}
+
+button[name="edit"],button[name="delete"]{
+    outline: 0;
+    display: inline-block;
+    text-align: center;
+    background-image: linear-gradient(#eaeaea 0%, #c6c6c6 100%);
+    box-shadow: inset 0 2px 0 rgba(255,255,255,0.5), 0 2px 2px rgba(0, 0, 0, 0.19);
+    color: #33323665;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 1);
+    padding: 5px 24px;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 90%;
+}
+
+
+.button_ex{
+    float: left;
+    width: 45%;
+}
+
+.button_ex p{
+    font-size: 0.5rem;
+}
+
+
+.button_ex#bu_del{
+    float: right;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(7, 6, 6) !important;
+}
+
+.edit_tag_summary{
+    font-size: 1.2rem;
+    outline: 0;
+}
+
+input.edit_ans{
+    font-size: 1rem;
+    border: none;
+    border-bottom: solid 1px #b3acac;
+    margin-top: 0px;
+    outline: 0;
+    margin-right: 1%;
+    width: 17%;
+}
+
+.edit_content_table{
+    width:90%;
+    margin: 0 auto;
+}
+
+table{
+    border-collapse:collapse;
+    float:left;
+}
+td,th{
+    padding:10px;
+}
+th{
+    color:#fff;
+    background:gray;
+}
+table tr:nth-child(odd){
+    background:#eef0f5;
+}
